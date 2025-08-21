@@ -81,3 +81,6 @@ pay_total = (df_filtered.groupby('Payment')['Total']
 fig_payment = px.bar(pay_total, x='Total', y='Payment', orientation='h',
                      title='Distribuição de faturamento por forma de pagamento (R$)')
 st.plotly_chart(fig_payment, use_container_width=True)
+# teste
+#teste 
+#teste
